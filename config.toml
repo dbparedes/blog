@@ -1,3 +1,27 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 title = "My New Hugo Site"
 languageCode = "en-us"
+
+lightbox = true
+nodate = true
+disqusShortname = "kooooook"
+
+
+[params]
+    sidebartitle = " David Paredes"
+    sidebartagline = "Is super awesome"
+    sidebarphoto = "/img/david.jpg"
+    categoriescss = "/css/categories.css"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts"
+
+[[menu.social]]
+    pre = "<i class='fa fa-twitter'></i>"
+    url = "http://www.twitter.com/shift8creative"
+    identifier = "twitter"
+
+[[menu.footer]]
+    name = "Blog"
+    url = "/posts"
