@@ -1,10 +1,11 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 title = "My New Hugo Site"
 languageCode = "en-us"
+theme = "hugo-redlounge"
 
 lightbox = true
 nodate = true
-disqusShortname = "kooooook"
+disqusShortname = "dbparedes"
 
 
 [params]
@@ -15,13 +16,28 @@ disqusShortname = "kooooook"
 
 [[menu.main]]
     name = "Blog"
-    url = "/posts"
+    url = "/post"
+
+[[menu.main]]
+    name = "Resume"
+    url = "http://dbparedes.github.io/"
 
 [[menu.social]]
-    pre = "<i class='fa fa-twitter'></i>"
-    url = "http://www.twitter.com/shift8creative"
+    pre = "<i class='fa fa-twitter fa-lg'></i>"
+    url = "http://www.twitter.com/dparedes28"
     identifier = "twitter"
+
+[[menu.social]]
+    pre = "<i class='fa fa-github fa-lg'></i>"
+    url = "http://www.github.com/dbparedes"
+    identifier = "github"
+
+[[menu.social]]
+    pre = "<i class='fa fa-linkedin fa-lg'></i>"
+    url = "http://www.linkedin.com/in/davidparedesm"
+    identifier = "linkedin"
+
 
 [[menu.footer]]
     name = "Blog"
-    url = "/posts"
+    url = "/post"
